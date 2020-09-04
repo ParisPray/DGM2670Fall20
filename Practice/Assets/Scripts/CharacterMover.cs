@@ -9,6 +9,7 @@ public class CharacterMover : MonoBehaviour
   private Vector3 movement;
   public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f, rotateSpeed = 30f;
   private float yVar;
+  private int jumpCount;
   private void Start()
   {
     controller = GetComponent<CharacterController>();

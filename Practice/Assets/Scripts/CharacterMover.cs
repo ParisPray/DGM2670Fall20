@@ -9,6 +9,9 @@ public class CharacterMover : MonoBehaviour
   private Vector3 movement;
   public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f, rotateSpeed = 30f;
   private float yVar;
+
+  private int jumpCountMax = 2;
+  private int jumpCount;
   private void Start()
   {
     controller = GetComponent<CharacterController>();
@@ -19,8 +22,10 @@ public class CharacterMover : MonoBehaviour
     
     movement.Set(moveSpeed*vInput, gravity, 0);
     movement = transform.TransformDirection(movement);
+    
     controller.Move(movement * Time.deltaTime);
     var hInput = Input.GetAxis("Horizontal");
+    
     transform.Rotate(0,hInput,0);
     
     yVar += gravity;
@@ -29,11 +34,14 @@ public class CharacterMover : MonoBehaviour
     if (controller.isGrounded && movement.y <0)
     {
       yVar = -1f;
+      jumpCount = 0;
     }
     
     if (Input.GetKeyDown(KeyCode.Space))
     {
       yVar += Mathf.Sqrt(jumpForce * gravity);
+      jumpCount++;
     }
+    
   }
 }

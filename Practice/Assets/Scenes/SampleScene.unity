@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   gravity: -9.81
-  jumpForce: 12
+  jumpForce: 20
   rotateSpeed: 30
 --- !u!143 &159709081
 CharacterController:

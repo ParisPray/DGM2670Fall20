@@ -78,6 +78,7 @@
       <workItem from="1599006350678" duration="2972000" />
       <workItem from="1599073616892" duration="4388000" />
       <workItem from="1599199095623" duration="273000" />
+      <workItem from="1599619494365" duration="815000" />
     </task>
     <servers />
   </component>
@@ -100,5 +101,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599620481609">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="385" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599620481609" />
   </component>
 </project>

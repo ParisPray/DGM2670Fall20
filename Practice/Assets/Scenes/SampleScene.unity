@@ -153,10 +153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e19ff0900ac61e49bef2053f24d4bd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
   gravity: -9.81
   jumpForce: 20
   rotateSpeed: 30
+  moveSpeed: {fileID: 11400000, guid: 23b27642c68f5bc4baef5627b85abcd8, type: 2}
+  normalSpeed: {fileID: 11400000, guid: a945eb436abee2a469cead2b45640be2, type: 2}
+  fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
 --- !u!143 &159709081
 CharacterController:
   m_ObjectHideFlags: 0

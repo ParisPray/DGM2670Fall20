@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="characterMover.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="JumpPowerup.cs" t="Include" />
           <e p="SpawnPoint.cs" t="Include" />

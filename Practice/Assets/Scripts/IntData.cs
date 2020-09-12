@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class IntData : ScriptableObject
 {
-   public float value;
+   public int value;
 }

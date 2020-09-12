@@ -8,12 +8,13 @@ public class CharacterMover : MonoBehaviour
 {
   private CharacterController controller;
   private Vector3 movement;
-  public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f, rotateSpeed = 30f;
+  public float gravity = -9.81f, jumpForce = 10f, rotateSpeed = 30f;
   private float yVar;
 
   private int jumpCountMax = 2;
   private int jumpCount;
 
+  public floatData moveSpeed, normalSpeed, fastSpeed;
   private void Start()
   {
     controller = GetComponent<CharacterController>();
@@ -21,7 +22,17 @@ public class CharacterMover : MonoBehaviour
 
   private void Update()
   {
-    var vInput = Input.GetAxis("Vertical") * moveSpeed;
+    if (Input.GetKeyDown(KeyCode.LeftShift))
+    {
+      moveSpeed = fastSpeed;
+    }
+
+    if (Input.GetKeyUp(KeyCode.LeftShift))
+    {
+      moveSpeed = normalSpeed;
+    }
+    
+    var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
 
     movement.Set(vInput, yVar, 0);
     movement = transform.TransformDirection(movement);

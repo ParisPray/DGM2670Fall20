@@ -41,14 +41,14 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/characterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/floatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPowerup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +98,9 @@
       <workItem from="1599678911385" duration="3834000" />
       <workItem from="1599801142120" duration="383000" />
       <workItem from="1599886381906" duration="143000" />
-      <workItem from="1600112269511" duration="2815000" />
+      <workItem from="1600112269511" duration="2823000" />
+      <workItem from="1600233964016" duration="135000" />
+      <workItem from="1600274685037" duration="1814000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class ApplyForce : MonoBehaviour
 {
     private Rigidbody rBody;

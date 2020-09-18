@@ -157,6 +157,8 @@ MonoBehaviour:
   gravity: -9.81
   jumpForce: 20
   rotateSpeed: 30
+  playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
+  currentSpawnPoint: {fileID: 0}
   moveSpeed: {fileID: 11400000, guid: 23b27642c68f5bc4baef5627b85abcd8, type: 2}
   normalSpeed: {fileID: 11400000, guid: a945eb436abee2a469cead2b45640be2, type: 2}
   fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
@@ -262,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ddcc8015d9c334786afcda58f86b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
+  health: {fileID: 11400000, guid: 5c01fa14250d8b349a2be1782d96dd0d, type: 2}
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -539,7 +541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379012049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.06, z: 0}
+  m_LocalPosition: {x: 0, y: 0.09, z: 0.01}
   m_LocalScale: {x: 7.9261, y: 7.9261, z: 7.9261}
   m_Children: []
   m_Father: {fileID: 0}

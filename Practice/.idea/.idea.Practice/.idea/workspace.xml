@@ -30,6 +30,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +107,8 @@
       <workItem from="1600112269511" duration="2823000" />
       <workItem from="1600233964016" duration="135000" />
       <workItem from="1600274685037" duration="1814000" />
-      <workItem from="1600377444321" duration="1033000" />
+      <workItem from="1600377444321" duration="1633000" />
+      <workItem from="1600493644336" duration="324000" />
     </task>
     <servers />
   </component>

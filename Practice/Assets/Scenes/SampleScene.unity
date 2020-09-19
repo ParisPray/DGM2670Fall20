@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: -9.81
-  jumpForce: 20
+  jumpForce: 10
   rotateSpeed: 30
   playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
   currentSpawnPoint: {fileID: 0}

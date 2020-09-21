@@ -11,12 +11,13 @@ public class CharacterMover : MonoBehaviour
   public float gravity = -9.81f, jumpForce = 10f, rotateSpeed = 30f;
   private float yVar;
 
-  private int jumpCountMax = 2;
+  public IntData playerJumpCount;
   private int jumpCount;
-
+  public Vector3Data currentSpawnPoint;
   public floatData moveSpeed, normalSpeed, fastSpeed;
   private void Start()
   {
+    moveSpeed = normalSpeed;
     controller = GetComponent<CharacterController>();
   }
 
@@ -51,12 +52,12 @@ public class CharacterMover : MonoBehaviour
       jumpCount = 0;
     }
 
-    if (Input.GetKeyDown(KeyCode.Space))
+    if (Input.GetButtonDown("Jump")&& jumpCount < playerJumpCount.value)
     {
-      yVar += Mathf.Sqrt(jumpForce * gravity);
+      yVar += jumpForce;
       jumpCount++;
     }
-
+    
   }
 }
 

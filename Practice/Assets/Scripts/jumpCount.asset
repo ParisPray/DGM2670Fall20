@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 709361413919c3747a89fbb396605b31, type: 3}
-  m_Name: Health
+  m_Name: jumpCount
   m_EditorClassIdentifier: 
-  value: 1
+  value: 2

@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AddScore.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="characterMover.cs" t="Include" />
           <e p="EnemyHealth.cs" t="Include" />
@@ -17,6 +18,10 @@
           <e p="JumpPowerup.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
+          <e p="MouseEventsBehaviour.cs" t="Include" />
+          <e p="MoveLocator.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
           <e p="SpawnPoint.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
         </e>

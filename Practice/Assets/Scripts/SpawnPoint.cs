@@ -9,6 +9,6 @@ public class SpawnPoint : MonoBehaviour
     // Set the vData from the position value :)
     private void OnTriggerEnter(Collider other)
     {
-        vData.SetValueFromTrasform(transform.position);
+        vData.SetValueFromTransform(transform.position);
     }
 }

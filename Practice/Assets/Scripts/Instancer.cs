@@ -6,18 +6,14 @@ public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
 
-    private Rigidbody rBody;
+    public Vector3Data rotationDirection;
     // Start is called before the first frame update
-    void Start()
+    public void Instance()
     {
         var location = transform.position;
-        var RotationDirection = new Vector3(0f, 45f, 0f);
-        Instantiate(prefab, location, Quaternion.Euler(RotationDirection));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
+        print(rotationDirection.value);
+        print(transform.eulerAngles);
     }
 }
+  

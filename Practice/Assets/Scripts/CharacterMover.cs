@@ -58,6 +58,11 @@ public class CharacterMover : MonoBehaviour
       jumpCount++;
     }
     
+    void OnEnable()
+    {
+      transform.position = currentSpawnPoint.value;
+    }
+    
   }
 }
 

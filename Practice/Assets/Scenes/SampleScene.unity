@@ -339,8 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73ffb5b6f7e1fef41bbf3f50b93ca3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  rotationDirection: {fileID: 0}
+  prefab: {fileID: 8952796665492535832, guid: 4c408c1cf4afaa741b9e0a32dfbf8d2a, type: 3}
+  rotationDirection: {fileID: 11400000, guid: 59dea17110e8afc4d902a8529460f75d, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

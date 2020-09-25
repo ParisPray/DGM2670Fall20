@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class LookAt : MonoBehaviour
 {
-    public Transform lookObj;
-    void Update()
-    {
-        transform.LookAt(lookObj);
-        var transformRotation = transform.eulerAngles;
+  public void OnLook(Vector3Data obj)
+  {
+
+      Transform transform1;
+      (transform1 = transform).LookAt(obj.value);
+        var transformRotation = transform1.eulerAngles;
         transformRotation.x = 0;
-        transformRotation.y = 90;
+        transformRotation.y -= 90;
         transform.rotation = Quaternion.Euler(transformRotation);
     }
 }

@@ -54,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAt.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +114,7 @@
       <workItem from="1600839316239" duration="331000" />
       <workItem from="1600888219937" duration="2525000" />
       <workItem from="1600996462216" duration="1000" />
+      <workItem from="1601067197973" duration="162000" />
     </task>
     <servers />
   </component>

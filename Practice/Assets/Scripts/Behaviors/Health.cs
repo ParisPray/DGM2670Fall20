@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     public IntData health;
     public UnityEvent deathEvent;
-    
+  
     // Start is called before the first frame update
     void Start()
     {

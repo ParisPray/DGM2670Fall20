@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa625bf4c410be4e860ad5a3c0d84c1, type: 3}
-  m_Name: AimVector
+  m_Script: {fileID: 11500000, guid: 5bba0106c67a1a341a29a3029dbb6956, type: 3}
+  m_Name: fastSpeed
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 0, z: 1}
+  value: 15

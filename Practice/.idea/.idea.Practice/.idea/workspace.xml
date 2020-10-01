@@ -31,7 +31,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/4d/d6ee8cc0/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,8 +58,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Instancer.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +129,7 @@
       <workItem from="1600996462216" duration="1000" />
       <workItem from="1601067197973" duration="162000" />
       <workItem from="1601492786178" duration="3652000" />
+      <workItem from="1601589918810" duration="3792000" />
     </task>
     <servers />
   </component>

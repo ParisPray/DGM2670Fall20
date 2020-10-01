@@ -105,7 +105,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -123,7 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d1e5cc17319e14f88e7452e012fff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 30
+  force: 1000
+  aimVector: {fileID: 11400000, guid: 59dea17110e8afc4d902a8529460f75d, type: 2}
 --- !u!114 &4516055646772688691
 MonoBehaviour:
   m_ObjectHideFlags: 0

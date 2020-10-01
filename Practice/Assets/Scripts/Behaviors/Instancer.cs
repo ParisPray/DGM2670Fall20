@@ -12,8 +12,9 @@ public class Instancer : MonoBehaviour
     {
         var location = transform.position;
         Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
-        print(rotationDirection.value);
-        print(transform.eulerAngles);
+       // print(rotationDirection.value);
+       // print(transform.eulerAngles);
+       print("transform"+location);
     }
 }
   

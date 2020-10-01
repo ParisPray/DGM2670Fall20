@@ -10,6 +10,7 @@
           <e p="Behaviors" t="Include">
             <e p="AddScore.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
+            <e p="CharacterKnockback.cs" t="Include" />
             <e p="characterMover.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />
@@ -21,7 +22,6 @@
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
           </e>
-          <e p="CharacterKnockback.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">

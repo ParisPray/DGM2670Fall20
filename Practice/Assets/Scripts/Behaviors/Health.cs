@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class Health : MonoBehaviour
 {
     public IntData health;
-    public UnityEvent deathEvent;
+    public UnityEvent deathEvent, subtractHealthEvent;
   
     // Start is called before the first frame update
     void Start()
@@ -27,6 +27,7 @@ public class Health : MonoBehaviour
    public void SubtractHealth()
    {
        health.value--;
+       subtractHealthEvent.Invoke();
        if (health.value <= 0)
        {
            deathEvent.Invoke();

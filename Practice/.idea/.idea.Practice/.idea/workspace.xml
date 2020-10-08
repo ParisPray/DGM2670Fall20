@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6BB1E07-E811-405E-8130-84A5C27EF139/e4/a0cd0638/Collider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/4d/d6ee8cc0/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterKnockback.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +135,7 @@
       <workItem from="1601952017234" duration="20000" />
       <workItem from="1601952088679" duration="38000" />
       <workItem from="1602048299313" duration="337000" />
+      <workItem from="1602119949259" duration="2625000" />
     </task>
     <servers />
   </component>

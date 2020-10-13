@@ -159,14 +159,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e19ff0900ac61e49bef2053f24d4bd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 30
   gravity: -9.81
   jumpForce: 10
-  rotateSpeed: 30
-  playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
-  currentSpawnPoint: {fileID: 11400000, guid: b652bcfa0ec372f43a680fba70ae1090, type: 2}
-  moveSpeed: {fileID: 11400000, guid: 23b27642c68f5bc4baef5627b85abcd8, type: 2}
   normalSpeed: {fileID: 11400000, guid: a945eb436abee2a469cead2b45640be2, type: 2}
   fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
+  playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
+  pushPower: 10
 --- !u!143 &159709081
 CharacterController:
   m_ObjectHideFlags: 0
@@ -687,6 +686,7 @@ GameObject:
   - component: {fileID: 1033716709}
   - component: {fileID: 1033716708}
   - component: {fileID: 1033716712}
+  - component: {fileID: 1033716713}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -812,6 +812,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1033716713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033716707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bbb7c1c056f7c4e9105867d337314a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379012049
 GameObject:
   m_ObjectHideFlags: 0

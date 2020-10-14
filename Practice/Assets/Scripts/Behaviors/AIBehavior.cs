@@ -42,4 +42,3 @@ public class AIBehavior : MonoBehaviour
         canHunt = false;
     }
     }
-}

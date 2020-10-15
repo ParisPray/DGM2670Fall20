@@ -10,6 +10,7 @@ public class AIBehavior : MonoBehaviour
     private NavMeshAgent agent;
     public Transform player;
     private bool canHunt, canPatrol;
+    public GameObject enemy;
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -42,3 +43,8 @@ public class AIBehavior : MonoBehaviour
         canHunt = false;
     }
     }
+
+private void OnTriggerEnter(Collider "Bullet"){
+
+Destroy (GameObject);
+}

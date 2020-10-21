@@ -22,7 +22,7 @@ public class AIBehavior : MonoBehaviour
         canHunt = true;
         agent.destination = player.position;
         var distance = agent.remainingDistance;
-        while (distance <= 0.25f)
+        while (distance >= 0.25f)
         {
             distance = agent.remainingDistance;
             yield return wffu;
@@ -42,9 +42,7 @@ public class AIBehavior : MonoBehaviour
     {
         canHunt = false;
     }
+
+   
     }
 
-private void OnTriggerEnter(Collider "Bullet"){
-
-Destroy (GameObject);
-}

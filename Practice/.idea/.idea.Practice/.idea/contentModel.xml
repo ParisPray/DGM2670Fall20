@@ -10,10 +10,12 @@
           <e p="Behaviors" t="Include">
             <e p="AddScore.cs" t="Include" />
             <e p="AIBehavior.cs" t="Include" />
+            <e p="AIPatrol.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterKnockback.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="characterMover.cs" t="Include" />
+            <e p="Coroutines.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />
             <e p="Lerping.cs" t="Include" />
@@ -21,8 +23,10 @@
             <e p="Monobehaviours.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="MoveLocator.cs" t="Include" />
+            <e p="PointFromMouse.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
+            <e p="TriggerEventsBehaviour.cs" t="Include" />
           </e>
           <e p="Debugger.cs" t="Include" />
           <e p="Score.cs" t="Include" />

@@ -15,6 +15,7 @@
             <e p="CharacterKnockback.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="characterMover.cs" t="Include" />
+            <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />

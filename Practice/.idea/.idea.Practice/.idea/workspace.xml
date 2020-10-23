@@ -72,11 +72,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PointFromMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +156,7 @@
       <workItem from="1602733945624" duration="1245000" />
       <workItem from="1603244032927" duration="1099000" />
       <workItem from="1603306419210" duration="1125000" />
+      <workItem from="1603418649291" duration="1223000" />
     </task>
     <servers />
   </component>

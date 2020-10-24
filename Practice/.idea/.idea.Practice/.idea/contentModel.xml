@@ -32,6 +32,7 @@
           <e p="Debugger.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
+            <e p="CharacterMachineData.cs" t="Include" />
             <e p="floatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />

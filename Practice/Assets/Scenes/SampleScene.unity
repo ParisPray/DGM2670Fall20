@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 159709083}
   - component: {fileID: 159709082}
   - component: {fileID: 159709081}
-  - component: {fileID: 159709080}
   - component: {fileID: 159709086}
   - component: {fileID: 159709088}
   - component: {fileID: 159709087}
@@ -142,6 +141,7 @@ GameObject:
   - component: {fileID: 159709089}
   - component: {fileID: 159709092}
   - component: {fileID: 159709093}
+  - component: {fileID: 159709080}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -161,13 +161,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e19ff0900ac61e49bef2053f24d4bd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 80
+  rotateSpeed: 30
   gravity: -9.81
   jumpForce: 10
-  normalSpeed: {fileID: 11400000, guid: a945eb436abee2a469cead2b45640be2, type: 2}
-  fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
-  playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
-  pushPower: 2
+  normalSpeed: {fileID: 0}
+  fastSpeed: {fileID: 0}
+  playerJumpCount: {fileID: 0}
+  pushPower: 10
 --- !u!143 &159709081
 CharacterController:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159709079}
   m_LocalRotation: {x: -0, y: -0.70957595, z: -0, w: 0.70462906}
-  m_LocalPosition: {x: 6.53, y: 0.67, z: -0.19700071}
+  m_LocalPosition: {x: 16.9, y: 0.67, z: -0.19700071}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1553989334}
@@ -1119,7 +1119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 8952796665492535832, guid: 4c408c1cf4afaa741b9e0a32dfbf8d2a, type: 3}
-  rotationDirection: {fileID: 11400000, guid: 59dea17110e8afc4d902a8529460f75d, type: 2}
 --- !u!114 &1553989336
 MonoBehaviour:
   m_ObjectHideFlags: 0

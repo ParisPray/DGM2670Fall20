@@ -29,17 +29,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6BB1E07-E811-405E-8130-84A5C27EF139/e4/a0cd0638/Collider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/PointFromMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/4d/d6ee8cc0/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachonTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6BB1E07-E811-405E-8130-84A5C27EF139/e4/a0cd0638/Collider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/PointFromMouse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/4d/d6ee8cc0/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,8 +70,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterKnockback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
@@ -80,6 +83,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachonTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PlayerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -162,6 +173,7 @@
       <workItem from="1603510086120" duration="2269000" />
       <workItem from="1603822132822" duration="657000" />
       <workItem from="1603936410750" duration="1801000" />
+      <workItem from="1603993577470" duration="1299000" />
     </task>
     <servers />
   </component>

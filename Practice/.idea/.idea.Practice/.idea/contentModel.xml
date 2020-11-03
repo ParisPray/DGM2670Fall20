@@ -11,6 +11,7 @@
             <e p="AddScore.cs" t="Include" />
             <e p="AIBehavior.cs" t="Include" />
             <e p="AIPatrol.cs" t="Include" />
+            <e p="AnimStates.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
             <e p="AttachonTrigger.cs" t="Include" />
             <e p="CharacterKnockback.cs" t="Include" />
@@ -27,7 +28,7 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="MoveLocator.cs" t="Include" />
-            <e p="PlayerBehavior.cs" t="Include" />
+            <e p="playerBehaviour.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
@@ -38,6 +39,7 @@
           <e p="ScriptableObjects" t="Include">
             <e p="CharacterMachineData.cs" t="Include" />
             <e p="floatData.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>

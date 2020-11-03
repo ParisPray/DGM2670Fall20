@@ -258,7 +258,6 @@ GameObject:
   - component: {fileID: 159709081}
   - component: {fileID: 159709086}
   - component: {fileID: 159709088}
-  - component: {fileID: 159709087}
   - component: {fileID: 159709090}
   - component: {fileID: 159709091}
   - component: {fileID: 159709089}
@@ -266,6 +265,7 @@ GameObject:
   - component: {fileID: 159709093}
   - component: {fileID: 159709080}
   - component: {fileID: 159709094}
+  - component: {fileID: 159709087}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -399,18 +399,7 @@ MonoBehaviour:
   health: {fileID: 11400000, guid: 5c01fa14250d8b349a2be1782d96dd0d, type: 2}
   deathEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 159709086}
-        m_MethodName: BroadcastMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Game Over
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   subtractHealthEvent:
@@ -427,31 +416,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 159709079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18ddcc8015d9c334786afcda58f86b85, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d343b7611aec504e8be961325000410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 11400000, guid: 5c01fa14250d8b349a2be1782d96dd0d, type: 2}
-  deathEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 159709086}
-        m_MethodName: SubtractHealth
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  subtractHealthEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  characterStates: {fileID: 0}
+  moveSpeed: 3
+  gravity: -9.81
 --- !u!114 &159709088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,18 +541,7 @@ MonoBehaviour:
   gameAction: {fileID: 11400000, guid: 453267aa6b4878d41abc0980e580006d, type: 2}
   handlerEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 453267aa6b4878d41abc0980e580006d, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   holdTime: 3

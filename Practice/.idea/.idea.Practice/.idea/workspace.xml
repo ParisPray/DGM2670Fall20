@@ -80,7 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PointFromMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachonTrigger.cs" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AnimStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +176,7 @@
       <workItem from="1603993577470" duration="3641000" />
       <workItem from="1604348674497" duration="606000" />
       <workItem from="1604374272131" duration="2984000" />
+      <workItem from="1604446487313" duration="467000" />
     </task>
     <servers />
   </component>

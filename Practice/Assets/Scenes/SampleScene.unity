@@ -288,9 +288,9 @@ MonoBehaviour:
   rotateSpeed: 30
   gravity: -9.81
   jumpForce: 10
-  normalSpeed: {fileID: 0}
-  fastSpeed: {fileID: 0}
-  playerJumpCount: {fileID: 0}
+  normalSpeed: {fileID: 11400000, guid: a945eb436abee2a469cead2b45640be2, type: 2}
+  fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
+  playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
   pushPower: 10
 --- !u!143 &159709081
 CharacterController:
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d343b7611aec504e8be961325000410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStates: {fileID: 0}
+  characterStates: {fileID: 11400000, guid: 655f4d5c4dd9d4844995ad6564edc570, type: 2}
   moveSpeed: 3
   gravity: -9.81
 --- !u!114 &159709088
@@ -541,7 +541,18 @@ MonoBehaviour:
   gameAction: {fileID: 11400000, guid: 453267aa6b4878d41abc0980e580006d, type: 2}
   handlerEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 159709079}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   holdTime: 3

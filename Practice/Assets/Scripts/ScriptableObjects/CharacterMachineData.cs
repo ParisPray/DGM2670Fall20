@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-
+[CreateAssetMenu]
 public class CharacterMachineData : ScriptableObject
 {
     public enum characterStates

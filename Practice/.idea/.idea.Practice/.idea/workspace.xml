@@ -86,11 +86,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/PlayerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AnimStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +176,8 @@
       <workItem from="1603993577470" duration="3641000" />
       <workItem from="1604348674497" duration="606000" />
       <workItem from="1604374272131" duration="2984000" />
-      <workItem from="1604446487313" duration="467000" />
+      <workItem from="1604446487313" duration="634000" />
+      <workItem from="1604555503085" duration="835000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,12 @@ public class CharacterMover : MonoBehaviour
     public IntData playerJumpCount;
     private int jumpCount;
 
+    public Animator pigAnimator;
+    public bool isJumping;
+    public bool isRunning;
+    public bool isIdle;
+    
+
     private void Start() 
     {
         moveSpeed = normalSpeed;
@@ -30,17 +37,24 @@ public class CharacterMover : MonoBehaviour
     private IEnumerator Move()
     {
         canMove = true;
+        pigAnimator.SetBool("isRunning", true);
         while (canMove)
         {
+            
             yield return wffu;
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
+                pigAnimator.SetBool("isIdle", false);
+                pigAnimator.SetBool("isIdle", true);
                 moveSpeed = fastSpeed;
             }
 
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
                 moveSpeed = normalSpeed;
+                pigAnimator.SetBool("isIdle", true);
+                pigAnimator.SetBool("isIdle", false);
+
             }
         
             var vInput = Input.GetAxis("Vertical")*moveSpeed.value;
@@ -54,14 +68,22 @@ public class CharacterMover : MonoBehaviour
 
             if (controller.isGrounded && movement.y < 0)
             {
+                pigAnimator.SetBool("isJumping", false);
+                pigAnimator.SetBool("isIdle", true);
+                pigAnimator.SetBool("isRunning", true);
                 yVar = -1f;
                 jumpCount = 0;
+               
+
             }
 
             if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
             {
+                pigAnimator.SetBool("isIdle", false);
+                pigAnimator.SetBool("isJumping", true);
                 yVar = jumpForce;
                 jumpCount++;
+                
             }
         
             movement = transform.TransformDirection(movement);

@@ -31,7 +31,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/GitKraken/DGM1610Spring20_Scripting/FinalTry3_OnceMorewithFEELING/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/GitKraken/DGM1610Spring20_Scripting/FinalTry3_OnceMorewithFEELING/Assets/Scripts/Pointscript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachonTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6BB1E07-E811-405E-8130-84A5C27EF139/e4/a0cd0638/Collider.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterKnockback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtMouse.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Monobehaviours.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
@@ -91,6 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -178,6 +180,8 @@
       <workItem from="1604374272131" duration="2984000" />
       <workItem from="1604446487313" duration="634000" />
       <workItem from="1604555503085" duration="835000" />
+      <workItem from="1604707095902" duration="63000" />
+      <workItem from="1604710890114" duration="3952000" />
     </task>
     <servers />
   </component>

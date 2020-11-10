@@ -604,6 +604,7 @@ GameObject:
   - component: {fileID: 1033716713}
   - component: {fileID: 1033716715}
   - component: {fileID: 1033716712}
+  - component: {fileID: 1033716714}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -722,6 +723,25 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1928716045}
   - {fileID: 1582029845}
+--- !u!114 &1033716714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033716707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d7de4c94395fe4c81a06a236003610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameAction: {fileID: 0}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  holdTime: 0
 --- !u!54 &1033716715
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1153,6 +1173,9 @@ MonoBehaviour:
   fastSpeed: {fileID: 11400000, guid: 370a2ee028bb4494e9b200f303a464cc, type: 2}
   playerJumpCount: {fileID: 11400000, guid: 495d7924e7357a748b383bf94447f64f, type: 2}
   pigAnimator: {fileID: 1755511018}
+  isJumping: 0
+  isRunning: 0
+  isIdle: 0
   pushPower: 10
 --- !u!143 &1755511021
 CharacterController:

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 public class TriggerEventsBehaviour : MonoBehaviour
 {
+ 
     public UnityEvent triggerEnterEvent, triggerExitEvent;
     public float delayTime = 0.01f;
     private WaitForSeconds waitObj;
@@ -23,4 +24,5 @@ public class TriggerEventsBehaviour : MonoBehaviour
     {
         triggerExitEvent.Invoke();
     }
+    
 }

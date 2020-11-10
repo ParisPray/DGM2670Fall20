@@ -50,6 +50,4 @@ public class AIBehavior : MonoBehaviour
             i = (i + 1) % patrolPoints.Count;
         }
     }
-   
-    }
-
+}

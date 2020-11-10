@@ -17,6 +17,7 @@
             <e p="CharacterKnockback.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="characterMover.cs" t="Include" />
+            <e p="CharacterWithLookAt.cs" t="Include" />
             <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
@@ -41,6 +42,7 @@
             <e p="floatData.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="NavAgentBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
         </e>

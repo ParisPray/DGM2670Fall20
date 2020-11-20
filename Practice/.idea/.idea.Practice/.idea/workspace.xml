@@ -42,10 +42,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6BB1E07-E811-405E-8130-84A5C27EF139/e4/a0cd0638/Collider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMachineData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/4d/d6ee8cc0/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/PointFromMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachonTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBrainBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/playerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -98,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterWithLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBrainBase.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +193,7 @@
       <workItem from="1604953225183" duration="2047000" />
       <workItem from="1605039630053" duration="15000" />
       <workItem from="1605235130553" duration="524000" />
+      <workItem from="1605807729095" duration="1945000" />
     </task>
     <servers />
   </component>

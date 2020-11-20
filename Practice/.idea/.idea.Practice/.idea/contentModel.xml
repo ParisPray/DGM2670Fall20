@@ -6,10 +6,25 @@
     <e p="C:\Users\paris\Dropbox\My PC (MSI)\Desktop\DGM2670Fall20\Practice" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Allegorithmic" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="engine_build_info.txt" t="Include" />
+            <e p="EULA.txt" t="Include" />
+            <e p="Substance.EditorHelper" t="Include">
+              <e p="Scripter.cs" t="Include" />
+              <e p="Substance.EditorHelper.asmdef" t="Include" />
+            </e>
+            <e p="Substance.Platform" t="Include">
+              <e p="NativeFunctions.cs" t="Include" />
+              <e p="Substance.Platform.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Behaviors" t="Include">
             <e p="AddScore.cs" t="Include" />
             <e p="AIBehavior.cs" t="Include" />
+            <e p="AIBrainBase.cs" t="Include" />
             <e p="AIPatrol.cs" t="Include" />
             <e p="AnimStates.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
@@ -51,6 +66,8 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Practice.sln" t="IncludeFlat" />
+      <e p="Substance.EditorHelper.csproj" t="IncludeRecursive" />
+      <e p="Substance.Platform.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>

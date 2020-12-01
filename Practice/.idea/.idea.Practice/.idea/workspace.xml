@@ -32,7 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Documents/GitKraken/DGM1610Spring20_Scripting/FinalTry3_OnceMorewithFEELING/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/GitKraken/DGM1610Spring20_Scripting/FinalTry3_OnceMorewithFEELING/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/GitKraken/DGM1610Spring20_Scripting/FinalTry3_OnceMorewithFEELING/Assets/Scripts/Pointscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,6 +101,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBrainBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ObjectPickup.cs" />
       </list>
     </option>
   </component>
@@ -194,6 +195,7 @@
       <workItem from="1605039630053" duration="15000" />
       <workItem from="1605235130553" duration="524000" />
       <workItem from="1605807729095" duration="1945000" />
+      <workItem from="1606791117475" duration="17000" />
     </task>
     <servers />
   </component>
